@@ -6,7 +6,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.NamedQuery;
 
-//There is no INSERT since JPQL doesn't support INSERT. Records will be inserted through Repository.
 @NamedQuery(
   name  = "Person.returnEntity",
   query = "SELECT person FROM Person person WHERE person.name = :name"

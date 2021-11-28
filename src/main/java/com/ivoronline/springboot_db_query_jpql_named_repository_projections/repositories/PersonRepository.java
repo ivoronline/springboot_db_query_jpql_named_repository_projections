@@ -8,7 +8,6 @@ public interface PersonRepository extends CrudRepository<Person, Integer> {
   Object  returnObjectArray(String name);
   String  returnString     (String name);
   Integer returnScalar     (String name);
-
 }
 
 
